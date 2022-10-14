@@ -1,44 +1,46 @@
 import styled from "styled-components";
 
 export const DropdownContainer = styled("div")`
-  width: 10.5em;
-  margin: 0 auto;
 `;
 
 export const DropdownHeader = styled("div")`
-  margin-bottom: 0.8em;
-  padding: 0.4em 2em 0.4em 1em;
+  margin-bottom: 5px;
+  padding: 10px 20px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
-  font-weight: 500;
-  font-size: 1.3rem;
   color: #3faffa;
 `;
 
 export const DropdownListContainer = styled("div")`
   position: absolute;
   z-index: 100;
-  width: 10.5em;
+  width: inherit;
+  max-height: 400px;
 `;
 
 export const DropdownList = styled("ul")`
-  padding: 0;
+  padding 5px 0;
   margin: 0;
-  padding-left: 1em;
   background: #ffffff;
   border: 2px solid #e5e5e5;
   box-sizing: border-box;
-  color: #3faffa;
-  font-size: 1.3rem;
-  font-weight: 500;
   &:first-child {
-    padding-top: 0.8em;
+    padding-top: 5px;
+  }
+  &:last-child {
+    padding-bottom: 5px;
   }
 `;
 
 export const DropdownListItem = styled("li")`
   list-style: none;
-  margin-bottom: 0.8em;
+  padding: 0 10px;
   &:hover {
-    color: #fd9e46;
+    background: #3faffa;
+  }
+
+  button {
+    border: none;
+    background: transparent;
+    box-shadow: none;
   }
 `;

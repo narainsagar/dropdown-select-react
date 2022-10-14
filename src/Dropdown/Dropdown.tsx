@@ -4,15 +4,17 @@ import { DropdownContainer, DropdownHeader, DropdownListContainer, DropdownList,
 interface Props {
   defaultItem?: string;
   items: string[];
+  styles?: any;
 }
 
 function Dropdown(props: Props) {
     const defaultProps = {
         defaultItem: undefined,
-        items: []
+        items: [],
+        styles: {}
     };
 
-  const { defaultItem, items } = props.items && props.items.length === 0 ? defaultProps : props;
+  const { defaultItem, items, styles } = props.items && props.items.length === 0 ? defaultProps : props;
 
   const [isOpen, toggle] = useState(false);
   const [selected, setSelected] = useState(defaultItem);
@@ -25,7 +27,7 @@ function Dropdown(props: Props) {
   };
 
   return (
-      <DropdownContainer ref={dropdownRef}>
+      <DropdownContainer ref={dropdownRef} style={styles}>
         <DropdownHeader onClick={() => toggle(!isOpen)}>
           { selected }
         </DropdownHeader>
