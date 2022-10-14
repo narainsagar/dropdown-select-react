@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.e1ecce85.chunk.css",
-  "main.js": "/static/js/main.acc519a5.chunk.js",
-  "main.js.map": "/static/js/main.acc519a5.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.d56670ee.js",
-  "runtime~main.js.map": "/static/js/runtime~main.d56670ee.js.map",
-  "static/js/2.2a8d9958.chunk.js": "/static/js/2.2a8d9958.chunk.js",
-  "static/js/2.2a8d9958.chunk.js.map": "/static/js/2.2a8d9958.chunk.js.map",
-  "static/js/3.f79af52e.chunk.js": "/static/js/3.f79af52e.chunk.js",
-  "static/js/3.f79af52e.chunk.js.map": "/static/js/3.f79af52e.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.f74a49c1144202070d237d5925f48a69.js": "/precache-manifest.f74a49c1144202070d237d5925f48a69.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.e1ecce85.chunk.css.map": "/static/css/main.e1ecce85.chunk.css.map"
+  "main.css": "/dropdown-select-react/static/css/main.e1ecce85.chunk.css",
+  "main.js": "/dropdown-select-react/static/js/main.acc519a5.chunk.js",
+  "main.js.map": "/dropdown-select-react/static/js/main.acc519a5.chunk.js.map",
+  "runtime~main.js": "/dropdown-select-react/static/js/runtime~main.1874d746.js",
+  "runtime~main.js.map": "/dropdown-select-react/static/js/runtime~main.1874d746.js.map",
+  "static/js/2.c8c2ceb1.chunk.js": "/dropdown-select-react/static/js/2.c8c2ceb1.chunk.js",
+  "static/js/2.c8c2ceb1.chunk.js.map": "/dropdown-select-react/static/js/2.c8c2ceb1.chunk.js.map",
+  "static/js/3.f79af52e.chunk.js": "/dropdown-select-react/static/js/3.f79af52e.chunk.js",
+  "static/js/3.f79af52e.chunk.js.map": "/dropdown-select-react/static/js/3.f79af52e.chunk.js.map",
+  "index.html": "/dropdown-select-react/index.html",
+  "precache-manifest.0e23c9911e5b539e2e0172b680b10d4b.js": "/dropdown-select-react/precache-manifest.0e23c9911e5b539e2e0172b680b10d4b.js",
+  "service-worker.js": "/dropdown-select-react/service-worker.js",
+  "static/css/main.e1ecce85.chunk.css.map": "/dropdown-select-react/static/css/main.e1ecce85.chunk.css.map"
 }
